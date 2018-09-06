@@ -1,0 +1,11 @@
+{
+  "name": "zipfunctions",
+  "version": "1.0.0",
+  "description": "This is just a small library for zipping javascript functions with node_modules for deploying on Netlify, though I see no reason why it won't work just fine deploying to lambda directly.",
+  "main": "zipfunctions.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
