@@ -17,8 +17,6 @@ fs.readdir(__dirname, (err, files) => {
       const zip = new AdmZip();
       zip.addLocalFile(script, `/${name}/`);
       zip.addLocalFolder('./node_modules/', `/${name}/node_modules`);
-      zip.addLocalFolder('./apis/', `/${name}/apis`);
-      zip.addLocalFolder('./helpers/', `/${name}/helpers`);
       zip.writeZip(`./zipped/${name}.zip`);
     }
   });
